@@ -1,0 +1,18 @@
+#tel{
+    text-align: left;
+    margin: 40vh auto;
+    width: 250px;
+}
+
+.span{
+    margin-right: 30px;
+    font-style: italic;
+    font-weight: bold;
+    color: #3D496C;
+    font-size: 20px;
+}
+input, .output_phone{
+    border: 2px solid #97A5CE;
+    width: 150px;
+    padding: 5px;
+}

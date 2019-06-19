@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Pipe telefone</title>
+    
+    <link rel="stylesheet" href="css/style.css">
+    
+    <script src="js/angular.min.js"></script>
+   
+</head>
+
+<body>
+      <script>  
+    var lpApp = angular.module('myApp', []);
+
+        lpApp.controller('myCtrl', function ($scope, $http) {
+        
+        });
+        </script>
+    <div id="tel" ng-app="myApp" ng-controller="myCtrl">
+      <span class="span">input</span><input name="input_tel" type="text"  ng-model="phone" > 
+    <p ng-show="phone"> <span class="span">output</span><span class="output_phone">({{phone.substring(0, 2)}})-{{phone.substring(2, 5)}}-{{phone.substring(5, 7)}}-{{phone.substring(7, 9)}}
+    </span> </p>
+        </div>
+
+   
+
+</body>
+
+</html>
